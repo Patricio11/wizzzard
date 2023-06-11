@@ -1,0 +1,82 @@
+
+.login-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.auth-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-container ul.login-options {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+.login-container ul.login-options .login-nav-link{
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+.login-container ul.login-options .login-nav-link.active::after{
+    content: "";
+    display: block;
+    margin-top: 3px;
+    width: 100%;
+    border: 2px solid var(--purple);
+    border-radius: 15px;
+}
+
+
+.forms-container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 1em;
+}
+.login-container form{
+    /* max-width: 350px;
+    margin-top: 25px; */
+    width: 350px;
+    display: none;
+    opacity: 0;
+    gap: 1em;
+    transition: .5s all ease;  
+}
+
+
+.login-container form.login.active{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.password-field-wrapper {
+    display: flex;
+    align-items: center;
+}
+span.field-icon.toggle-password {
+    cursor: pointer;
+}
+span.field-icon.toggle-password svg {
+    width: 2em;
+}
+
+.form-check {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+.form-check a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+

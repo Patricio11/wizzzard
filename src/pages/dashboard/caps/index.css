@@ -1,0 +1,32 @@
+.caps-container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding-left: 5rem;
+}
+
+
+
+.caps_item_wrapper{
+    position: relative;
+    width: 14%;
+}
+.caps_items {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.caps_items a.cpas_item img:hover {
+    transform: scale(1.05);
+}
+
+.caps_items a.cpas_item img {
+    max-width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+

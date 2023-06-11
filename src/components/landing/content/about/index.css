@@ -1,0 +1,19 @@
+#about{
+    text-align: center;
+    color: #fff;
+    background-image: url(../../../../../images/landing/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.container {
+    padding: 8rem 8rem 0 8rem;
+    font-weight: 100;
+    width: 100%;
+}
+
+img.main-img-about {
+    width: 75%;
+}

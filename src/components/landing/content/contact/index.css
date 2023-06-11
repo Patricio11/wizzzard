@@ -1,0 +1,90 @@
+#contact{
+    background-image: url(images/landing/contact_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+/* .container {
+    padding: 8rem 8rem 0 8rem;
+    font-weight: 100;
+    width: 100%;
+} */
+
+img.main-img-about {
+    width: 75%;
+}
+
+.container.contact-container {
+    padding: 4rem 8rem 0 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 650px;
+    /* margin: 0 auto; */
+    box-shadow: 11px 8px 11px -3px rgba(0, 0,0, .3);
+    padding: 25px 35px;
+    border-radius: 10px;
+    /* margin-bottom: 60px; */
+    background-color: #fff;
+}
+
+.formfield-group{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.check-group fieldset.radio_check{
+    display: flex;
+    gap: .5rem;
+}
+.checks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checks label{
+    cursor: pointer;
+}
+.checks input {
+    height: unset;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.send-btn{
+
+    background-image: url(images/landing/submit_btn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    padding-left: 45px;
+    padding-right: 25px;
+}

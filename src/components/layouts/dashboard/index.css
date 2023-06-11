@@ -1,0 +1,21 @@
+.dashboard-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper{
+    width: 100%;
+    position: relative;
+    background-image: url(/images/dashboard/dashboard_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-basis: 100%;
+
+    display: flex;
+    /* padding: 75px 35px; */
+    padding: 65px 100px;
+    justify-content: center;
+}

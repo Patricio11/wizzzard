@@ -1,0 +1,66 @@
+.curriculum-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    /* padding-left: 5rem; */
+}
+
+
+
+.curriculum_item_wrapper{
+    position: relative;
+    width: 14%;
+}
+.curriculum_items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+.curriculum_items a.cpas_item img:hover {
+    transform: scale(1.05);
+}
+
+.curriculum_items a.cpas_item img {
+    max-width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.scale-animation{
+    max-width: 100%;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.scale-animation:hover{
+    transform: scale(1.05);
+}
+
+.header-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+
+}
+span.add-btn {
+    background-image: url(/images/dashboard/add.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 30px;
+    color: transparent;
+}
+span.btn-export {
+    background-image: url(/images/dashboard/upload.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 30px;
+    color: transparent;
+}

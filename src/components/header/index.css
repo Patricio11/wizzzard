@@ -1,0 +1,252 @@
+.header-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+}
+nav.nav-top {
+    width: 100%;
+    display: flex;
+    padding: 1rem 1.7rem;
+}
+.logo {
+    width: 8.333333%;
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper .logo img{
+    max-width: 75px;
+}
+div.header-title-containder {
+    position: relative;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+
+    padding: 20px 0;
+    pointer-events: none;
+}
+div.header-title-containder span img{
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    left: 0;
+    z-index: -1;
+}
+.header-titles {
+    /* background-color: red; */
+    max-width: 82px;
+    padding: 85px 15px;
+    position: relative;
+    font-size: 20pt;
+    font-weight: 600;
+    transition: ease-in 1s;
+}
+span.my-class {
+    background-image: url(/images/dashboard/myClass.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.seach-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.seach-container .input-container {
+
+    display: flex;
+    position: relative;
+    justify-content: end;
+    bottom: 0;
+    width: 100%;
+}
+
+.input-container .search-input {
+    padding: 0.8rem;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+    font-size: 16pt;
+    font-weight: 100;
+    width: 50%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background: var(--dark-background);
+    color: var(--white);
+    border: none;
+    outline: none;
+}
+.input-container svg {
+    position: absolute;
+    right: 0.666em;
+    top: 0.8888rem;
+
+    color: #BCBCBC;
+    font-size: 16pt;
+}
+
+
+.action-icons-contaner {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    width: 33.3333%;
+}
+
+.profile-container {
+    position: relative;
+}
+.profile-initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    background: var(--dark-background);
+    color: var(--white);
+    vertical-align: middle;
+    padding-top: 2px;
+    border: 2px solid var(--dark-background);
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+.profileDialog {
+    border-radius: 10px;
+    z-index: 9;
+}
+
+.header-calender {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--white);
+}
+
+.grade_class{
+
+    /* background-image: url(images/dashboard/grede_black.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 22px;
+    height: 47px;
+    background-position: left;
+    background-position: center;
+    width: 103px;
+    float: right; */
+    background-image: url(/images/dashboard/grede_black.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47px;
+    background-position: left;
+    background-position: center;
+    width: 103px;
+    display: flex;
+    padding: 0.7em;
+}
+
+.term_week{
+
+    width: 100%;
+    background-image: url(/images/dashboard/term_black.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+}
+span.term_of_week{
+    color: var(--dark-background);
+}
+
+/* Bottom nav */
+nav.nav-bottom {
+    display: flex;
+    padding: 0 1.777rem;
+    width: 100%;
+    position: relative;
+}
+
+nav.nav-bottom ul{
+    display: flex;
+    gap: 1rem;
+    padding-left: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+nav.nav-bottom ul li{
+    padding: 0.2rem 1rem;
+    border-radius: 50rem;
+    background-color: transparent;
+    transition: all .3s ease-in-out
+}
+
+nav.nav-bottom ul li a {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 100;
+    
+}
+nav.nav-bottom ul li a span {
+    font-size: 1px;
+}
+nav.nav-bottom ul li:hover a,
+nav.nav-bottom ul li.active a {
+    color: #ffffff;
+}
+
+nav.nav-bottom ul li.my-class:hover,
+nav.nav-bottom ul li.my-class.active {
+    background-color: var(--backgorund-myClass-color);
+}
+nav.nav-bottom ul li.forms:hover,
+nav.nav-bottom ul li.forms.active {
+    background-color: var( --backgorund-forms-color);
+}
+nav.nav-bottom ul li.learners:hover,
+nav.nav-bottom ul li.learners.active {
+    background-color: var(--backgorund-learner-color);
+}
+nav.nav-bottom ul li.parents:hover,
+nav.nav-bottom ul li.parents.active {
+    background-color: var(--backgorund-parent-color);
+}
+nav.nav-bottom ul li.caps:hover,
+nav.nav-bottom ul li.caps.active {
+    background-color: var(--backgorund-caps-color);
+}
+nav.nav-bottom ul li.resources:hover,
+nav.nav-bottom ul li.resources.active {
+    background-color: var(--backgorund-resources-color);
+}
+nav.nav-bottom ul li.minutes:hover,
+nav.nav-bottom ul li.minutes.active {
+    background-color: var(--backgorund-minutes-color);
+}
+nav.nav-bottom ul li.calender:hover,
+nav.nav-bottom ul li.calender.active {
+    background-color: var(--backgorund-calender-color);
+}
+
+
+li.nav-item.undefined:hover a{
+    color: red;
+}
+

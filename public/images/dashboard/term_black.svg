@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220.381" height="62.692" viewBox="0 0 220.381 62.692">
+  <defs>
+    <filter id="Path_400" x="0" y="0" width="220.381" height="62.692" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_563" data-name="Group 563" transform="translate(-124.121 -980.479)">
+    <path id="Path_399" data-name="Path 399" d="M135,70.494V84.376H259.2l11.69-5.845,4.384-8.767,1.461-6.576-1.461-8.767L268.7,47.114l-8.767-3.653L243.131,42l-20.457,1.461L162.033,42Z" transform="translate(57.301 945.209)" fill="#fff"/>
+    <path id="Path_401" data-name="Path 401" d="M162.08,78.17h0Z" transform="translate(50.008 935.465)" fill="#e6e6e6"/>
+    <ellipse id="Ellipse_81" data-name="Ellipse 81" cx="4.749" cy="4.749" rx="4.749" ry="4.749" transform="translate(244.176 1008.521)" fill="#353c45"/>
+    <g transform="matrix(1, 0, 0, 1, 124.12, 980.48)" filter="url(#Path_400)">
+      <path id="Path_400-2" data-name="Path 400" d="M234.031,41H76.35A22.342,22.342,0,0,0,54,63.35h0A22.342,22.342,0,0,0,76.35,85.692H234.031a22.342,22.342,0,0,0,22.35-22.342h0A22.342,22.342,0,0,0,234.031,41ZM120.121,82.039a4.749,4.749,0,1,1,4.749-4.749A4.749,4.749,0,0,1,120.121,82.039Zm133.338-19a19,19,0,0,1-19,19H133.053a4.757,4.757,0,1,1,.541-9.5h21.882a4.749,4.749,0,0,0,0-9.5h-9.462a4.749,4.749,0,0,1,0-9.5h17.118a5.845,5.845,0,0,0,4.581-9.5h66.749a19,19,0,0,1,19,19Z" transform="translate(-45 -35)" fill="#353c45"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+#offer{
+    text-align: center;
+    background-image: url(images/landing/whatoffer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.offer-container {
+    padding: 4rem 8rem 0 8rem;
+    font-weight: 100;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-wrapper{
+    display: flex;
+    width: 100%;
+}
+.offer-col{
+    width: 33.333%;
+}
+.offer-col.midle-offer-col {
+    margin-top: 8rem;
+}
+.offer-col img {
+    max-width: 151px;
+    max-height: 125px;
+}
+.offer-col h4 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
